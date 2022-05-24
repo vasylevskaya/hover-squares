@@ -6,9 +6,10 @@ const ModePicker = ({ setMode }) => {
   const [selectValue, setSelectValue] = useState("")
 
   useEffect(() => {
-    fetch('http://demo7919674.mockable.io/')
+    fetch('https://demo7919674.mockable.io/')
       .then(resolve => resolve.json())
       .then(resolve => setOptions(resolve))
+      .catch(error => console.error(error))
   }, [])
 
   const handleSelectChange = (event) => {
