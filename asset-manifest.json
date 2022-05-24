@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hover-squares/static/css/main.e692f68b.css",
-    "main.js": "/hover-squares/static/js/main.a74bef72.js",
+    "main.js": "/hover-squares/static/js/main.21af215f.js",
     "static/js/787.8f8bee16.chunk.js": "/hover-squares/static/js/787.8f8bee16.chunk.js",
     "index.html": "/hover-squares/index.html",
     "main.e692f68b.css.map": "/hover-squares/static/css/main.e692f68b.css.map",
-    "main.a74bef72.js.map": "/hover-squares/static/js/main.a74bef72.js.map",
+    "main.21af215f.js.map": "/hover-squares/static/js/main.21af215f.js.map",
     "787.8f8bee16.chunk.js.map": "/hover-squares/static/js/787.8f8bee16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e692f68b.css",
-    "static/js/main.a74bef72.js"
+    "static/js/main.21af215f.js"
   ]
 }
