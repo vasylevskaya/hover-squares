@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.container-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+button:disabled {
+  cursor: default;
+}

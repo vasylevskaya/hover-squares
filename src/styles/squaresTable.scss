@@ -1,0 +1,26 @@
+.squares {
+  display: flex;
+  gap: 50px;
+
+  .squares-board {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  
+    .square {
+      height: $square-size;
+      width: $square-size;
+      border: 1px solid black;
+      box-sizing: border-box;
+      cursor: pointer;
+  
+      &.untouched {
+        background-color: rgb(255, 255, 255);
+      }
+  
+      &.touched {
+        background-color: rgb(42, 102, 230);
+      }
+    }
+  }
+}
